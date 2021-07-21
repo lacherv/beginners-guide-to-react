@@ -1,0 +1,2 @@
+# The Beginner's Guide to React [link](https://egghead.io/courses/the-beginner-s-guide-to-react)
+Smart way to learn React. It’s a component-based JavaScript library that renders smartly and can seriously simplify your work.
