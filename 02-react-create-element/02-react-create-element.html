@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02-react-create-element</title>
+</head>
+<body>
+    
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@16.7.0/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.production.min.js"></script>
+    <script>
+        const rootElement = document.getElementById('root');
+        const element = React.createElement('div', {
+            children: React.createElement('span', null, 'Hello ', 'there'),
+            className: 'container'
+        });
+        console.log(element);
+        ReactDOM.render(element, rootElement);
+
+        // const element = document.createElement('div');
+        // element.textContent = 'Hello lacherv';
+        // element.className = 'containter';
+        // rootElement.appendChild(element);
+
+    </script>
+</body>
+</html>
